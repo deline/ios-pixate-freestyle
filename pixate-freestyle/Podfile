@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'PixateFreestyle', '~> 2.1'
+pod 'AFNetworking', '~> 2.6'
