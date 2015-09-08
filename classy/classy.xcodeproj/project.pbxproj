@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73C18CA31B9E83F400DB7745 /* stylesheet.cas in Resources */ = {isa = PBXBuildFile; fileRef = 73C18CA21B9E83F400DB7745 /* stylesheet.cas */; };
 		73E3205D1B971D69005D14F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3205C1B971D69005D14F6 /* AppDelegate.swift */; };
 		73E3205F1B971D69005D14F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3205E1B971D69005D14F6 /* ViewController.swift */; };
 		73E320621B971D69005D14F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E320601B971D69005D14F6 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		0ED392FDACF62CFB903F27C0 /* Pods_classy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_classy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC714469C326B94030D3EDC /* Pods-classy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-classy.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-classy/Pods-classy.debug.xcconfig"; sourceTree = "<group>"; };
+		73C18CA21B9E83F400DB7745 /* stylesheet.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stylesheet.cas; sourceTree = "<group>"; };
 		73E320591B971D69005D14F6 /* classy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E3205C1B971D69005D14F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E3205E1B971D69005D14F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				73E320631B971D69005D14F6 /* Assets.xcassets */,
 				73E320651B971D69005D14F6 /* LaunchScreen.storyboard */,
 				73E320681B971D69005D14F6 /* Info.plist */,
+				73C18CA21B9E83F400DB7745 /* stylesheet.cas */,
 			);
 			path = classy;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E320671B971D69005D14F6 /* LaunchScreen.storyboard in Resources */,
+				73C18CA31B9E83F400DB7745 /* stylesheet.cas in Resources */,
 				73E320641B971D69005D14F6 /* Assets.xcassets in Resources */,
 				73E320621B971D69005D14F6 /* Main.storyboard in Resources */,
 			);

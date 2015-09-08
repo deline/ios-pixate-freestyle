@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73C18C9D1B9E81BF00DB7745 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C18C9C1B9E81BF00DB7745 /* main.swift */; };
+		73C18CA01B9E82C000DB7745 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 73C18C9F1B9E82C000DB7745 /* default.css */; };
 		73E3210B1B971F0E005D14F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3210A1B971F0E005D14F6 /* AppDelegate.swift */; };
 		73E3210D1B971F0E005D14F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E3210C1B971F0E005D14F6 /* ViewController.swift */; };
 		73E321101B971F0E005D14F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E3210E1B971F0E005D14F6 /* Main.storyboard */; };
@@ -36,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		6FA849C910E7CFE5CEBB04A2 /* Pods_pixate_freestyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixate_freestyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C18C9C1B9E81BF00DB7745 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		73C18C9E1B9E827A00DB7745 /* pixate-freestyle-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixate-freestyle-BridgingHeader.h"; sourceTree = "<group>"; };
+		73C18C9F1B9E82C000DB7745 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
 		73E321071B971F0E005D14F6 /* pixate-freestyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixate-freestyle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E3210A1B971F0E005D14F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E3210C1B971F0E005D14F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				73E321111B971F0E005D14F6 /* Assets.xcassets */,
 				73E321131B971F0E005D14F6 /* LaunchScreen.storyboard */,
 				73E321161B971F0E005D14F6 /* Info.plist */,
+				73C18C9C1B9E81BF00DB7745 /* main.swift */,
+				73C18C9E1B9E827A00DB7745 /* pixate-freestyle-BridgingHeader.h */,
+				73C18C9F1B9E82C000DB7745 /* default.css */,
 			);
 			path = "pixate-freestyle";
 			sourceTree = "<group>";
@@ -258,6 +266,7 @@
 				73E321151B971F0E005D14F6 /* LaunchScreen.storyboard in Resources */,
 				73E321121B971F0E005D14F6 /* Assets.xcassets in Resources */,
 				73E321101B971F0E005D14F6 /* Main.storyboard in Resources */,
+				73C18CA01B9E82C000DB7745 /* default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +341,7 @@
 			files = (
 				73E3210D1B971F0E005D14F6 /* ViewController.swift in Sources */,
 				73E3210B1B971F0E005D14F6 /* AppDelegate.swift in Sources */,
+				73C18C9D1B9E81BF00DB7745 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.pixate-freestyle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "pixate-freestyle/pixate-freestyle-BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -488,6 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.pixate-freestyle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "pixate-freestyle/pixate-freestyle-BridgingHeader.h";
 			};
 			name = Release;
 		};

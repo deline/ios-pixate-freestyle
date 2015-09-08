@@ -1,0 +1,8 @@
+UIButton {
+    color            : #446620;
+    background-color : linear-gradient(#87c44a, #b4da77);
+    border-width     : 1px;
+    layer @{
+        corner-radius : 10;
+    }
+}
