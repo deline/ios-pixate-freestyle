@@ -21,63 +21,19 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - Classy (0.2.4)
-  - Nimbus (1.2.0):
-    - Nimbus/AttributedLabel (= 1.2.0)
-    - Nimbus/Badge (= 1.2.0)
-    - Nimbus/Collections (= 1.2.0)
-    - Nimbus/Collections (= 1.2.0)
-    - Nimbus/Core (= 1.2.0)
-    - Nimbus/CSS (= 1.2.0)
-    - Nimbus/Interapp (= 1.2.0)
-    - Nimbus/Launcher (= 1.2.0)
-    - Nimbus/Models (= 1.2.0)
-    - Nimbus/NetworkControllers (= 1.2.0)
-    - Nimbus/NetworkImage (= 1.2.0)
-    - Nimbus/Overview (= 1.2.0)
-    - Nimbus/PagingScrollView (= 1.2.0)
-    - Nimbus/Photos (= 1.2.0)
-    - Nimbus/Textfield (= 1.2.0)
-    - Nimbus/WebController (= 1.2.0)
-  - Nimbus/AttributedLabel (1.2.0):
-    - Nimbus/Core
-  - Nimbus/Badge (1.2.0):
-    - Nimbus/Core
-  - Nimbus/Collections (1.2.0):
-    - Nimbus/Core
-  - Nimbus/Core (1.2.0)
-  - Nimbus/CSS (1.2.0):
+  - Nimbus/Core (HEAD based on 1.2.0)
+  - Nimbus/CSS (HEAD based on 1.2.0):
     - AFNetworking (~> 2.1)
     - Nimbus/Core
     - Nimbus/Textfield
-  - Nimbus/Interapp (1.2.0):
-    - Nimbus/Core
-  - Nimbus/Launcher (1.2.0):
-    - Nimbus/Core
-    - Nimbus/PagingScrollView
-  - Nimbus/Models (1.2.0):
-    - Nimbus/Core
-  - Nimbus/NetworkControllers (1.2.0):
-    - Nimbus/Core
-  - Nimbus/NetworkImage (1.2.0):
-    - AFNetworking (~> 2.1)
-    - Nimbus/Core
-  - Nimbus/Overview (1.2.0):
-    - Nimbus/Core
-    - Nimbus/Models
-  - Nimbus/PagingScrollView (1.2.0):
-    - Nimbus/Core
-  - Nimbus/Photos (1.2.0):
-    - Nimbus/Core
-    - Nimbus/PagingScrollView
-  - Nimbus/Textfield (1.2.0):
-    - Nimbus/Core
-  - Nimbus/WebController (1.2.0):
+  - Nimbus/Textfield (HEAD based on 1.2.0):
     - Nimbus/Core
   - PixateFreestyle (2.1.4)
 
 DEPENDENCIES:
   - Classy (~> 0.2)
-  - Nimbus (~> 1.2)
+  - Nimbus/Core (HEAD)
+  - Nimbus/CSS (HEAD)
   - PixateFreestyle (~> 2.1)
 
 SPEC CHECKSUMS:

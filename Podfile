@@ -18,5 +18,6 @@ end
 
 target :'nimbus-kit' do
   xcodeproj 'nimbus-kit/nimbus-kit.xcodeproj'
-  pod 'Nimbus', '~> 1.2'
+  pod 'Nimbus/CSS', :head
+  pod 'Nimbus/Core', :head
 end

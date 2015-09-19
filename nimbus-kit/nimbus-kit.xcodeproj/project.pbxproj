@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73A985E31BAD8C7D000EE4FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A985E21BAD8C7D000EE4FE /* main.swift */; settings = {ASSET_TAGS = (); }; };
+		73A985E61BAD9131000EE4FE /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = 73A985E51BAD9131000EE4FE /* stylesheet.css */; settings = {ASSET_TAGS = (); }; };
 		73E321451B972188005D14F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E321441B972188005D14F6 /* AppDelegate.swift */; };
 		73E321471B972188005D14F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E321461B972188005D14F6 /* ViewController.swift */; };
 		73E3214A1B972188005D14F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E321481B972188005D14F6 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		2D150F526B6FBFEA24AECC0F /* Pods_nimbus_kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nimbus_kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3C1157C0FE33010460DF4A /* Pods-nimbus-kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nimbus-kit.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-nimbus-kit/Pods-nimbus-kit.debug.xcconfig"; sourceTree = "<group>"; };
+		73A985E21BAD8C7D000EE4FE /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		73A985E51BAD9131000EE4FE /* stylesheet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
 		73E321411B972188005D14F6 /* nimbus-kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nimbus-kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E321441B972188005D14F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E321461B972188005D14F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73A985E41BAD9131000EE4FE /* css */ = {
+			isa = PBXGroup;
+			children = (
+				73A985E51BAD9131000EE4FE /* stylesheet.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
 		73E321381B972188005D14F6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +116,14 @@
 		73E321431B972188005D14F6 /* nimbus-kit */ = {
 			isa = PBXGroup;
 			children = (
+				73A985E41BAD9131000EE4FE /* css */,
 				73E321441B972188005D14F6 /* AppDelegate.swift */,
 				73E321461B972188005D14F6 /* ViewController.swift */,
 				73E321481B972188005D14F6 /* Main.storyboard */,
 				73E3214B1B972188005D14F6 /* Assets.xcassets */,
 				73E3214D1B972188005D14F6 /* LaunchScreen.storyboard */,
 				73E321501B972188005D14F6 /* Info.plist */,
+				73A985E21BAD8C7D000EE4FE /* main.swift */,
 			);
 			path = "nimbus-kit";
 			sourceTree = "<group>";
@@ -258,6 +272,7 @@
 				73E3214F1B972188005D14F6 /* LaunchScreen.storyboard in Resources */,
 				73E3214C1B972188005D14F6 /* Assets.xcassets in Resources */,
 				73E3214A1B972188005D14F6 /* Main.storyboard in Resources */,
+				73A985E61BAD9131000EE4FE /* stylesheet.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +347,7 @@
 			files = (
 				73E321471B972188005D14F6 /* ViewController.swift in Sources */,
 				73E321451B972188005D14F6 /* AppDelegate.swift in Sources */,
+				73A985E31BAD8C7D000EE4FE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +488,7 @@
 			baseConfigurationReference = 5B3C1157C0FE33010460DF4A /* Pods-nimbus-kit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "nimbus-kit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.nimbus-kit";
@@ -484,6 +501,7 @@
 			baseConfigurationReference = 7B1258B0AEBD50106F36D4F7 /* Pods-nimbus-kit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "nimbus-kit/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delineneo.nimbus-kit";
