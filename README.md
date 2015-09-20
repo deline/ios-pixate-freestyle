@@ -1,4 +1,4 @@
-Sample projects to try out the following styling librarys for iOS UI:
+Sample projects to try out the following styling libraries for iOS UI:
 * Classy
 * Pixate-Freestyle
 * NimbusKit
